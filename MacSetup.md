@@ -5,7 +5,7 @@ There are two main package managers for Mac command line programs - ports, and h
 - Install [Xcode](https://itunes.apple.com/us/app/xcode/id497799835).
 - Install the [Xcode command line tools](https://developer.apple.com/downloads/index.action).
 - Install [git](http://git-scm.com/downloads), or `brew install git`.
-- Install [Python 3](https://www.python.org/downloads/) (NOT 2), or `brew install python3`.
+- Install [Python 3](https://www.python.org/downloads/) (NOT 2), or `brew install python`.
 - Install the [ARM Embedded Toolchain](https://launchpad.net/gcc-arm-embedded), or follow instructions below.
 
 - Accept the Xcode license by opening it, or running `xcodebuild -license`.
