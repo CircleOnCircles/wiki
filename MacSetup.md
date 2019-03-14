@@ -26,7 +26,7 @@ If you want to build for Teensy 1, Teensy 2, or other AVR based chip, install th
 ```bash
 brew tap osx-cross/homebrew-avr
 brew update
-brew install avr-binutils avr-gcc avr-libc
+brew install avr-binutils avr-gcc
 ```
 
 If you want to build for Teensy 3, the Infinity Keyboard, or another ARM based chip, install the following
