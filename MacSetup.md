@@ -29,6 +29,12 @@ brew update
 brew install avr-binutils avr-gcc avr-libc
 ```
 
+Failure to `brew install avr-gcc` could be solved with 
+```
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/mpc/lib/
+```
+This is normally happen to macOS Mojave as [this issue](https://github.com/osx-cross/homebrew-avr/issues/91) suggested.
+
 If you want to build for Teensy 3, the Infinity Keyboard, or another ARM based chip, install the following
 
 ```bash
